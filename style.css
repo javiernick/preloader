@@ -21,7 +21,8 @@ body {
 }
 
 /* Preloader */
-.container-preloader {
+.container-preloader {    
+    background-color: rgba(248, 248, 248, 0.9);
   align-items: center;
   cursor: none;
   display: flex;
@@ -43,13 +44,13 @@ body {
   border-radius: 50%;
   border: 10px solid rgba(0, 0, 0, 0.2);
   border-top-color: green; /* It is not in alphabetical order so that you do not overwrite it */
-  height: 9em;
+  height: 4.5em;
   margin: 0 auto 3.5em auto;
-  width: 9em;
+  width: 4.5em;
 }
 /* Loading text */
 .container-preloader .animation-preloader .txt-loading {
-  font: bold 5em "Montserrat", sans-serif;
+  font: bold 2em "Montserrat", sans-serif;
   text-align: center;
   user-select: none;
 }
@@ -110,7 +111,7 @@ body {
   animation-delay: 1.4s;
 }
 .container-preloader .loader-section {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   height: 100%;
   position: fixed;
   top: 0;
